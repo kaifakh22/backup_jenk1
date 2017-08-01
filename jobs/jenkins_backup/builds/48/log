@@ -1,0 +1,49 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/jenkins_backup
+[jenkins_backup] $ /bin/sh -xe /tmp/jenkins6141027003996983031.sh
++ SOURCE=/var/lib/jenkins
++ DESTI=/var/jenkins101/git_jenkins_backup
++ REPO=git@github.com:kaifakh22/git_jenkins_backup.git
++ date
++ TIMESTAMP=Wed Aug  2 00:15:06 IST 2017
++ cd /var/jenkins101/git_jenkins_backup
++ sudo git config --global user.email kaif@example.com
+sudo: unable to resolve host jenkins_server
++ sudo git config --global user.name kaif
+sudo: unable to resolve host jenkins_server
++ echo /var/lib/jenkins
+/var/lib/jenkins
++ echo git@github.com:kaifakh22/git_jenkins_backup.git
+git@github.com:kaifakh22/git_jenkins_backup.git
++ [ ! -d /var/lib/jenkins ]
++ echo copying files to destination
+copying files to destination
++ sudo cp -r /var/lib/jenkins/users /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/plugins /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/jobs /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/config.xml /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo git add .
+sudo: unable to resolve host jenkins_server
++ sudo git commit -m Wed Aug  2 00:15:06 IST 2017
+sudo: unable to resolve host jenkins_server
+[master a9cab87] Wed Aug  2 00:15:06 IST 2017
+ 7 files changed, 79 insertions(+), 3 deletions(-)
+ create mode 100644 jobs/jenkins_backup/builds/47/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/48/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/48/log
++ sudo git remote set-url origin git@github.com:kaifakh22/git_jenkins_backup.git
+sudo: unable to resolve host jenkins_server
++ sudo git push origin master
+sudo: unable to resolve host jenkins_server
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+packet_write_wait: Connection to 192.30.253.112 port 22: Broken pipe
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

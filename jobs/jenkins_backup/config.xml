@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#SOURCE=/var/lib/jenkins/{users,plugins,jobs,config.xml}
+SOURCE=/var/lib/jenkins
+DESTI=/var/jenkins101
+REPO=git@github.com:kaifakh22/backup_jenk1.git
+TIMESTAMP=$(date)
+HTTPS_REPO=https://github.com/kaifakh22/backup_jenk1.git
+
+echo $SOURCE
+echo $REPO
+
+if [ ! -d &quot;$SOURCE&quot; ] || [ ! -d &quot;$DESTI&quot; ] ; then
+   echo &quot;No folder exists&quot;
+   sudo mkdir $DESTI
+   cd $DESTI
+   sudo git config --global user.email &quot;kaif@example.com&quot;
+   sudo git config --global user.name &quot;kaif&quot;
+   sudo git clone $HTTPS_REPO  
+else
+   sudo git config --global user.email &quot;kaif@example.com&quot;
+   sudo git config --global user.name &quot;kaif&quot;
+fi
+
+cd &quot;$DESTI/backup_jenk1&quot;
+
+echo &quot;copying files to destination&quot;
+sudo cp -r &quot;$SOURCE/users&quot; &quot;$DESTI/backup_jenk1&quot;
+sudo cp -r &quot;$SOURCE/plugins&quot; &quot;$DESTI/backup_jenk1&quot;
+sudo cp -r &quot;$SOURCE/jobs&quot; &quot;$DESTI/backup_jenk1&quot;
+sudo cp -r &quot;$SOURCE/config.xml&quot; &quot;$DESTI/backup_jenk1&quot;
+
+#git status
+sudo git add .
+sudo git commit -m &quot;$TIMESTAMP&quot;
+sudo git remote set-url origin $REPO
+sudo git push origin master</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

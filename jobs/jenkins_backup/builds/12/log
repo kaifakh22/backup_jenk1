@@ -1,0 +1,19 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/jenkins_backup
+[jenkins_backup] $ /bin/sh -xe /tmp/jenkins8784578602427720046.sh
++ SOURCE=/var/lib/jenkins/{users,plugins,jobs,config.xml}
++ DESTI=/var/jenkins101/git_jenkins_backup
++ REPO=https://github.com/kaifakh22/git_jenkins_backup.git
++ SOURCEFOLDER=/var/lib/jenkins
++ echo /var/lib/jenkins/{users,plugins,jobs,config.xml}
+/var/lib/jenkins/{users,plugins,jobs,config.xml}
++ echo https://github.com/kaifakh22/git_jenkins_backup.git
+https://github.com/kaifakh22/git_jenkins_backup.git
++ [ -d /var/lib/jenkins ]
++ [ -d /var/jenkins101/git_jenkins_backup ]
++ echo copying files to destination
+copying files to destination
++ cp -r /var/lib/jenkins/users /var/jenkins101/git_jenkins_backup
+cp: cannot create regular file '/var/jenkins101/git_jenkins_backup/users/admin/config.xml': Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

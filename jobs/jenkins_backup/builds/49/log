@@ -1,0 +1,12 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/jenkins_backup
+[jenkins_backup] $ /bin/sh -xe /tmp/jenkins7035465681375029383.sh
++ SOURCE=/var/lib/jenkins
++ DESTI=/var/jenkins101
++ REPO=git@github.com:kaifakh22/git_jenkins_backup.git
++ date
++ TIMESTAMP=Wed Aug  2 00:22:25 IST 2017
++ cd /var/jenkins101
+/tmp/jenkins7035465681375029383.sh: 8: cd: can't cd to /var/jenkins101
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

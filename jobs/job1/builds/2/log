@@ -1,0 +1,11 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/job1
+[job1] $ /bin/sh -xe /tmp/jenkins355058152078876132.sh
++ ls -la
+total 8
+drwxr-xr-x 2 jenkins jenkins 4096 Aug  1 00:59 .
+drwxr-xr-x 3 jenkins jenkins 4096 Aug  1 00:59 ..
++ docker --help
+/tmp/jenkins355058152078876132.sh: 3: /tmp/jenkins355058152078876132.sh: docker: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

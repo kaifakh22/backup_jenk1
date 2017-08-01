@@ -1,0 +1,174 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/jenkins_backup
+[jenkins_backup] $ /bin/sh -xe /tmp/jenkins7977412050358418022.sh
++ SOURCE=/var/lib/jenkins
++ DESTI=/var/jenkins101/git_jenkins_backup
++ REPO=git@github.com:kaifakh22/git_jenkins_backup.git
++ date
++ TIMESTAMP=Wed Aug  2 00:00:10 IST 2017
++ cd /var/jenkins101/git_jenkins_backup
++ sudo git config --global user.email kaif@example.com
+sudo: unable to resolve host jenkins_server: Connection timed out
++ sudo git config --global user.name kaif
+sudo: unable to resolve host jenkins_server
++ echo /var/lib/jenkins
+/var/lib/jenkins
++ echo git@github.com:kaifakh22/git_jenkins_backup.git
+git@github.com:kaifakh22/git_jenkins_backup.git
++ [ ! -d /var/lib/jenkins ]
++ echo copying files to destination
+copying files to destination
++ sudo cp -r /var/lib/jenkins/users /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/plugins /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/jobs /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/config.xml /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo git add .
+sudo: unable to resolve host jenkins_server
++ sudo git commit -m Wed Aug  2 00:00:10 IST 2017
+sudo: unable to resolve host jenkins_server
+[master 9be0edb] Wed Aug  2 00:00:10 IST 2017
+ 137 files changed, 4048 insertions(+), 7 deletions(-)
+ create mode 100644 jobs/jenkins_backup/builds/10/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/10/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/10/log
+ create mode 100644 jobs/jenkins_backup/builds/11/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/11/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/11/log
+ create mode 100644 jobs/jenkins_backup/builds/12/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/12/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/12/log
+ create mode 100644 jobs/jenkins_backup/builds/13/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/13/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/13/log
+ create mode 100644 jobs/jenkins_backup/builds/14/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/14/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/14/log
+ create mode 100644 jobs/jenkins_backup/builds/15/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/15/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/15/log
+ create mode 100644 jobs/jenkins_backup/builds/16/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/16/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/16/log
+ create mode 100644 jobs/jenkins_backup/builds/17/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/17/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/17/log
+ create mode 100644 jobs/jenkins_backup/builds/18/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/18/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/18/log
+ create mode 100644 jobs/jenkins_backup/builds/19/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/19/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/19/log
+ create mode 100644 jobs/jenkins_backup/builds/20/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/20/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/20/log
+ create mode 100644 jobs/jenkins_backup/builds/21/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/21/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/21/log
+ create mode 100644 jobs/jenkins_backup/builds/22/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/22/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/22/log
+ create mode 100644 jobs/jenkins_backup/builds/23/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/23/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/23/log
+ create mode 100644 jobs/jenkins_backup/builds/24/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/24/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/24/log
+ create mode 100644 jobs/jenkins_backup/builds/25/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/25/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/25/log
+ create mode 100644 jobs/jenkins_backup/builds/26/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/26/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/26/log
+ create mode 100644 jobs/jenkins_backup/builds/27/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/27/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/27/log
+ create mode 100644 jobs/jenkins_backup/builds/28/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/28/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/28/log
+ create mode 100644 jobs/jenkins_backup/builds/29/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/29/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/29/log
+ create mode 100644 jobs/jenkins_backup/builds/3/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/3/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/3/log
+ create mode 100644 jobs/jenkins_backup/builds/30/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/30/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/30/log
+ create mode 100644 jobs/jenkins_backup/builds/31/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/31/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/31/log
+ create mode 100644 jobs/jenkins_backup/builds/32/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/32/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/32/log
+ create mode 100644 jobs/jenkins_backup/builds/33/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/33/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/33/log
+ create mode 100644 jobs/jenkins_backup/builds/34/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/34/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/34/log
+ create mode 100644 jobs/jenkins_backup/builds/35/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/35/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/35/log
+ create mode 100644 jobs/jenkins_backup/builds/36/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/36/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/36/log
+ create mode 100644 jobs/jenkins_backup/builds/37/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/37/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/37/log
+ create mode 100644 jobs/jenkins_backup/builds/38/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/38/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/38/log
+ create mode 100644 jobs/jenkins_backup/builds/39/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/39/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/39/log
+ create mode 100644 jobs/jenkins_backup/builds/4/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/4/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/4/log
+ create mode 100644 jobs/jenkins_backup/builds/40/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/40/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/40/log
+ create mode 100644 jobs/jenkins_backup/builds/41/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/41/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/41/log
+ create mode 100644 jobs/jenkins_backup/builds/42/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/42/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/42/log
+ create mode 100644 jobs/jenkins_backup/builds/43/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/43/log
+ create mode 100644 jobs/jenkins_backup/builds/44/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/44/log
+ create mode 100644 jobs/jenkins_backup/builds/45/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/45/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/45/log
+ create mode 100644 jobs/jenkins_backup/builds/46/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/46/log
+ create mode 100644 jobs/jenkins_backup/builds/5/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/5/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/5/log
+ create mode 100644 jobs/jenkins_backup/builds/6/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/6/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/6/log
+ create mode 100644 jobs/jenkins_backup/builds/7/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/7/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/7/log
+ create mode 100644 jobs/jenkins_backup/builds/8/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/8/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/8/log
+ create mode 100644 jobs/jenkins_backup/builds/9/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/9/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/9/log
+ create mode 100644 users/kaif/config.xml
++ sudo git remote set-url origin git@github.com:kaifakh22/git_jenkins_backup.git
+sudo: unable to resolve host jenkins_server
++ sudo git push origin master
+sudo: unable to resolve host jenkins_server
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+packet_write_wait: Connection to 192.30.253.113 port 22: Broken pipe
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

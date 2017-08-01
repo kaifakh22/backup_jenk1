@@ -1,0 +1,20 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/jenkins_backup
+[jenkins_backup] $ /bin/sh -xe /tmp/jenkins7557596835554861706.sh
++ SOURCE=/var/lib/jenkins
++ DESTI=/var/jenkins101/git_jenkins_backup
++ REPO=git@github.com:kaifakh22/git_jenkins_backup.git
++ date
++ TIMESTAMP=Tue Aug  1 23:41:21 IST 2017
++ cd /var/jenkins101/git_jenkins_backup
++ sudo git config --global user.email kaif@example.com
+sudo: unable to resolve host jenkins_server
++ sudo git config --global user.name kaif
+sudo: unable to resolve host jenkins_server
++ echo /var/lib/jenkins
+/var/lib/jenkins
++ echo git@github.com:kaifakh22/git_jenkins_backup.git
+git@github.com:kaifakh22/git_jenkins_backup.git
+/tmp/jenkins7557596835554861706.sh: 17: /tmp/jenkins7557596835554861706.sh: Syntax error: "else" unexpected
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

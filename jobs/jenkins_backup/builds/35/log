@@ -1,0 +1,43 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/jenkins_backup
+[jenkins_backup] $ /bin/sh -xe /tmp/jenkins6404954781977174269.sh
++ SOURCE=/var/lib/jenkins/{users,plugins,jobs,config.xml}
++ DESTI=/var/jenkins101/git_jenkins_backup
++ REPO=https://github.com/kaifakh22/git_jenkins_backup.git
++ SOURCEFOLDER=/var/lib/jenkins
++ echo /var/lib/jenkins/{users,plugins,jobs,config.xml}
+/var/lib/jenkins/{users,plugins,jobs,config.xml}
++ echo https://github.com/kaifakh22/git_jenkins_backup.git
+https://github.com/kaifakh22/git_jenkins_backup.git
++ [ -d /var/lib/jenkins ]
++ [ -d /var/jenkins101/git_jenkins_backup ]
++ echo copying files to destination
+copying files to destination
++ cp -r /var/lib/jenkins/users DESTI
++ cp -r /var/lib/jenkins/plugins DESTI
++ cp -r /var/lib/jenkins/jobs DESTI
++ cp -r /var/lib/jenkins/config.xml DESTI
++ cd /var/jenkins101/git_jenkins_backup
++ git config --global user.email kaif@example.com
++ git config --global user.name kaif
++ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	test
+
+nothing added to commit but untracked files present (use "git add" to track)
++ sudo git add .
+sudo: unable to resolve host jenkins_server
++ sudo git commit -m date 1 Aug
+sudo: unable to resolve host jenkins_server
+[master ea2dfc1] date 1 Aug
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test
++ sudo git push origin master
+sudo: unable to resolve host jenkins_server
+fatal: could not read Username for 'https://github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

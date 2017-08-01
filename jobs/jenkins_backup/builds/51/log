@@ -1,0 +1,43 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/jenkins_backup
+[jenkins_backup] $ /bin/sh -xe /tmp/jenkins4637415677608764229.sh
++ SOURCE=/var/lib/jenkins
++ DESTI=/var/jenkins101
++ REPO=git@github.com:kaifakh22/git_jenkins_backup.git
++ date
++ TIMESTAMP=Wed Aug  2 00:35:07 IST 2017
++ HTTPS_REPO=https://github.com/kaifakh22/git_jenkins_backup.git
++ echo /var/lib/jenkins
+/var/lib/jenkins
++ echo git@github.com:kaifakh22/git_jenkins_backup.git
+git@github.com:kaifakh22/git_jenkins_backup.git
++ [ ! -d /var/lib/jenkins ]
++ [ ! -d /var/jenkins101 ]
++ echo No folder exists
+No folder exists
++ sudo mkdir /var/jenkins101
+sudo: unable to resolve host jenkins_server
++ cd /var/jenkins101
++ sudo git config --global user.email kaif@example.com
+sudo: unable to resolve host jenkins_server
++ sudo git config --global user.name kaif
+sudo: unable to resolve host jenkins_server: Connection timed out
++ sudo git clone https://github.com/kaifakh22/git_jenkins_backup.git
+sudo: unable to resolve host jenkins_server
+Cloning into 'git_jenkins_backup'...
+Checking out files:  28% (1019/3558)   Checking out files:  29% (1032/3558)   Checking out files:  30% (1068/3558)   Checking out files:  31% (1103/3558)   Checking out files:  32% (1139/3558)   Checking out files:  33% (1175/3558)   Checking out files:  34% (1210/3558)   Checking out files:  35% (1246/3558)   Checking out files:  36% (1281/3558)   Checking out files:  37% (1317/3558)   Checking out files:  38% (1353/3558)   Checking out files:  39% (1388/3558)   Checking out files:  39% (1389/3558)   Checking out files:  40% (1424/3558)   Checking out files:  41% (1459/3558)   Checking out files:  42% (1495/3558)   Checking out files:  43% (1530/3558)   Checking out files:  44% (1566/3558)   Checking out files:  45% (1602/3558)   Checking out files:  46% (1637/3558)   Checking out files:  47% (1673/3558)   Checking out files:  48% (1708/3558)   Checking out files:  49% (1744/3558)   Checking out files:  50% (1779/3558)   Checking out files:  51% (1815/3558)   Checking out files:  52% (1851/3558)   Checking out files:  53% (1886/3558)   Checking out files:  54% (1922/3558)   Checking out files:  55% (1957/3558)   Checking out files:  56% (1993/3558)   Checking out files:  57% (2029/3558)   Checking out files:  58% (2064/3558)   Checking out files:  59% (2100/3558)   Checking out files:  60% (2135/3558)   Checking out files:  61% (2171/3558)   Checking out files:  62% (2206/3558)   Checking out files:  63% (2242/3558)   Checking out files:  64% (2278/3558)   Checking out files:  65% (2313/3558)   Checking out files:  66% (2349/3558)   Checking out files:  66% (2367/3558)   Checking out files:  67% (2384/3558)   Checking out files:  68% (2420/3558)   Checking out files:  69% (2456/3558)   Checking out files:  70% (2491/3558)   Checking out files:  71% (2527/3558)   Checking out files:  72% (2562/3558)   Checking out files:  73% (2598/3558)   Checking out files:  74% (2633/3558)   Checking out files:  75% (2669/3558)   Checking out files:  76% (2705/3558)   Checking out files:  77% (2740/3558)   Checking out files:  78% (2776/3558)   Checking out files:  78% (2788/3558)   Checking out files:  79% (2811/3558)   Checking out files:  80% (2847/3558)   Checking out files:  81% (2882/3558)   Checking out files:  82% (2918/3558)   Checking out files:  83% (2954/3558)   Checking out files:  84% (2989/3558)   Checking out files:  85% (3025/3558)   Checking out files:  86% (3060/3558)   Checking out files:  87% (3096/3558)   Checking out files:  88% (3132/3558)   Checking out files:  89% (3167/3558)   Checking out files:  90% (3203/3558)   Checking out files:  91% (3238/3558)   Checking out files:  92% (3274/3558)   Checking out files:  93% (3309/3558)   Checking out files:  94% (3345/3558)   Checking out files:  95% (3381/3558)   Checking out files:  95% (3400/3558)   Checking out files:  95% (3403/3558)   Checking out files:  96% (3416/3558)   Checking out files:  97% (3452/3558)   Checking out files:  98% (3487/3558)   Checking out files:  99% (3523/3558)   Checking out files: 100% (3558/3558)   Checking out files: 100% (3558/3558), done.
++ echo copying files to destination
+copying files to destination
++ sudo cp -r /var/lib/jenkins/users /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/plugins /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/jobs /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/config.xml /var/jenkins101/git_jenkins_backup
+sudo: unable to resolve host jenkins_server
++ sudo git add .
+sudo: unable to resolve host jenkins_server
+fatal: Not a git repository (or any of the parent directories): .git
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

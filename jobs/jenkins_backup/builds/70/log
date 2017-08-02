@@ -1,0 +1,28 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/jenkins_backup
+[jenkins_backup] $ /bin/sh -xe /tmp/jenkins8238382164022144920.sh
++ SOURCE=/var/lib/jenkins
++ DESTI=/var/jenkins101
++ REPO=git@github.com:kaifakh22/backup_jenk1.git
++ date
++ TIMESTAMP=Wed Aug  2 22:37:38 IST 2017
++ HTTPS_REPO=https://github.com/kaifakh22/backup_jenk1.git
++ echo /var/lib/jenkins
+/var/lib/jenkins
++ echo git@github.com:kaifakh22/backup_jenk1.git
+git@github.com:kaifakh22/backup_jenk1.git
++ [ ! -d /var/lib/jenkins ]
++ [ ! -d /var/jenkins101 ]
++ sudo git config --global user.email kaif@example.com
+sudo: unable to resolve host jenkins_server
++ sudo git config --global user.name kaif
+sudo: unable to resolve host jenkins_server
++ cd /var/jenkins101/backup_jenk1
++ echo copying files to destination
+copying files to destination
++ sudo cp -r /var/lib/jenkins/users /var/jenkins101/backup_jenk1
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/plugins /var/jenkins101/backup_jenk1
+sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/jobs /var/jenkins101/backup_jenk1
+sudo: unable to resolve host jenkins_server

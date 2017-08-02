@@ -26,3 +26,103 @@ sudo: unable to resolve host jenkins_server
 sudo: unable to resolve host jenkins_server
 + sudo cp -r /var/lib/jenkins/jobs /var/jenkins101/backup_jenk1
 sudo: unable to resolve host jenkins_server
++ sudo cp -r /var/lib/jenkins/config.xml /var/jenkins101/backup_jenk1
+sudo: unable to resolve host jenkins_server
++ sudo git add .
+sudo: unable to resolve host jenkins_server
++ sudo git commit -m Wed Aug  2 22:28:36 IST 2017
+sudo: unable to resolve host jenkins_server
+[master 37152c5] Wed Aug  2 22:28:36 IST 2017
+ 84 files changed, 2797 insertions(+), 3 deletions(-)
+ create mode 100644 jobs/jenkins_backup/builds/68/build.xml
+ create mode 100644 jobs/jenkins_backup/builds/69/changelog.xml
+ create mode 100644 jobs/jenkins_backup/builds/69/log
+ create mode 100644 jobs/ssh_machne/builds/1/build.xml
+ create mode 100644 jobs/ssh_machne/builds/1/changelog.xml
+ create mode 100644 jobs/ssh_machne/builds/1/log
+ create mode 100644 jobs/ssh_machne/builds/10/build.xml
+ create mode 100644 jobs/ssh_machne/builds/10/changelog.xml
+ create mode 100644 jobs/ssh_machne/builds/10/log
+ create mode 100644 jobs/ssh_machne/builds/2/build.xml
+ create mode 100644 jobs/ssh_machne/builds/2/changelog.xml
+ create mode 100644 jobs/ssh_machne/builds/2/log
+ create mode 100644 jobs/ssh_machne/builds/3/build.xml
+ create mode 100644 jobs/ssh_machne/builds/3/changelog.xml
+ create mode 100644 jobs/ssh_machne/builds/3/log
+ create mode 100644 jobs/ssh_machne/builds/4/build.xml
+ create mode 100644 jobs/ssh_machne/builds/4/changelog.xml
+ create mode 100644 jobs/ssh_machne/builds/4/log
+ create mode 100644 jobs/ssh_machne/builds/5/build.xml
+ create mode 100644 jobs/ssh_machne/builds/5/changelog.xml
+ create mode 100644 jobs/ssh_machne/builds/5/log
+ create mode 100644 jobs/ssh_machne/builds/6/build.xml
+ create mode 100644 jobs/ssh_machne/builds/6/changelog.xml
+ create mode 100644 jobs/ssh_machne/builds/6/log
+ create mode 100644 jobs/ssh_machne/builds/7/build.xml
+ create mode 100644 jobs/ssh_machne/builds/7/changelog.xml
+ create mode 100644 jobs/ssh_machne/builds/7/log
+ create mode 100644 jobs/ssh_machne/builds/8/build.xml
+ create mode 100644 jobs/ssh_machne/builds/8/changelog.xml
+ create mode 100644 jobs/ssh_machne/builds/8/log
+ create mode 100644 jobs/ssh_machne/builds/9/build.xml
+ create mode 100644 jobs/ssh_machne/builds/9/changelog.xml
+ create mode 100644 jobs/ssh_machne/builds/9/log
+ create mode 120000 jobs/ssh_machne/builds/lastFailedBuild
+ create mode 120000 jobs/ssh_machne/builds/lastStableBuild
+ create mode 120000 jobs/ssh_machne/builds/lastSuccessfulBuild
+ create mode 120000 jobs/ssh_machne/builds/lastUnstableBuild
+ create mode 120000 jobs/ssh_machne/builds/lastUnsuccessfulBuild
+ create mode 100644 jobs/ssh_machne/builds/legacyIds
+ create mode 100644 jobs/ssh_machne/config.xml
+ create mode 120000 jobs/ssh_machne/lastStable
+ create mode 120000 jobs/ssh_machne/lastSuccessful
+ create mode 100644 jobs/ssh_machne/nextBuildNumber
+ create mode 100644 plugins/jsch.jpi
+ create mode 100644 plugins/jsch/.timestamp2
+ create mode 100644 plugins/jsch/META-INF/MANIFEST.MF
+ create mode 100644 plugins/jsch/META-INF/maven/org.jenkins-ci.plugins/jsch/pom.properties
+ create mode 100644 plugins/jsch/META-INF/maven/org.jenkins-ci.plugins/jsch/pom.xml
+ create mode 100644 plugins/jsch/WEB-INF/lib/classes.jar
+ create mode 100644 plugins/jsch/WEB-INF/lib/jsch-0.1.54.jar
+ create mode 100644 plugins/jsch/WEB-INF/licenses.xml
+ create mode 100644 plugins/ssh.jpi
+ create mode 100644 plugins/ssh/.timestamp2
+ create mode 100644 plugins/ssh/META-INF/MANIFEST.MF
+ create mode 100644 plugins/ssh/META-INF/maven/org.jenkins-ci.plugins/ssh/pom.properties
+ create mode 100644 plugins/ssh/META-INF/maven/org.jenkins-ci.plugins/ssh/pom.xml
+ create mode 100644 plugins/ssh/WEB-INF/lib/findbugs-annotations-1.3.9-1.jar
+ create mode 100644 plugins/ssh/WEB-INF/lib/ssh.jar
+ create mode 100644 plugins/ssh/WEB-INF/licenses.xml
+ create mode 100644 plugins/ssh/help-hostname.html
+ create mode 100644 plugins/ssh/help-hostname_ja.html
+ create mode 100644 plugins/ssh/help-hostselect.html
+ create mode 100644 plugins/ssh/help-hostselect_ja.html
+ create mode 100644 plugins/ssh/help-keyfile.html
+ create mode 100644 plugins/ssh/help-keyfile_ja.html
+ create mode 100644 plugins/ssh/help-login.html
+ create mode 100644 plugins/ssh/help-login_ja.html
+ create mode 100644 plugins/ssh/help-password.html
+ create mode 100644 plugins/ssh/help-password_ja.html
+ create mode 100644 plugins/ssh/help-port.html
+ create mode 100644 plugins/ssh/help-port_ja.html
+ create mode 100644 plugins/ssh/help-postscript.html
+ create mode 100644 plugins/ssh/help-postscript_ja.html
+ create mode 100644 plugins/ssh/help-prescript.html
+ create mode 100644 plugins/ssh/help-prescript_ja.html
+ create mode 100644 plugins/ssh/help-pty.html
+ create mode 100644 plugins/ssh/help-serverAliveInterval.html
+ create mode 100644 plugins/ssh/help-timeout.html
+ create mode 100644 plugins/ssh/help.html
+ create mode 100644 plugins/ssh/help_ja.html
++ sudo git remote set-url origin git@github.com:kaifakh22/backup_jenk1.git
+sudo: unable to resolve host jenkins_server
++ sudo git push origin master
+sudo: unable to resolve host jenkins_server
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

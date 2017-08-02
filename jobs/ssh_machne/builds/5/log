@@ -1,0 +1,23 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/ssh_machne
+[ssh_machne] $ /bin/sh -xe /tmp/jenkins5126603116518056762.sh
++ sudo ssh root@192.168.56.102
+sudo: unable to resolve host jenkins_server
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added '192.168.56.102' (ECDSA) to the list of known hosts.
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-77-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+73 packages can be updated.
+34 updates are security updates.
+
+
+mesg: ttyname failed: Inappropriate ioctl for device
++ sudo cd /var/lib
+sudo: unable to resolve host jenkins_server
+sudo: cd: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

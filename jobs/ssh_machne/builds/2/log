@@ -1,0 +1,11 @@
+Started by user [8mha:////4OHueqvUwcJJ/gzTjQjHGCpJIevad/6QtTNXPVjC+6AOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/ssh_machne
+[ssh_machne] $ /bin/sh -xe /tmp/jenkins1714889149855466008.sh
++ ssh root@192.168.56.102
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added '192.168.56.102' (ECDSA) to the list of known hosts.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
